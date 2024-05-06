@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Define a background class
+https://www.w3schools.com/cssref/pr_background-position.php
+*/
+.my-background {
+    /* Set the background color */
+    background-color: #2a2a2a;
+
+    /* Set a background image (replace 'url("your-image.jpg")' with the actual image URL)
+    background-image: url(../assets/images/171_hex.jpg);*/
+    background-position: top center;
+
+
+    /* Set the background repeat behavior (e.g., repeat, no-repeat) */
+    background-repeat: no-repeat;
+
+    /*background-clip: boarder-box; */
+
+    /*background-attachment: fixed; */
+}
+
+.my-body-copy {
+    color: #e3e3e3;
+}
+
+.my-form {
+    background-color: #0044cc;
+}
